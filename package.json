@@ -1,0 +1,24 @@
+{
+  "name": "ecwid_quantity_limiter",
+  "version": "1.0.0",
+  "description": "Ecwid product page field to pre define minimmum order per product",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Great0S/ecwid_quantity_limiter.git"
+  },
+  "keywords": [
+    "ecwid",
+    "product_page",
+    "quantity_limiter"
+  ],
+  "author": "GreatOS Systems",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Great0S/ecwid_quantity_limiter/issues"
+  },
+  "homepage": "https://github.com/Great0S/ecwid_quantity_limiter#readme"
+}
