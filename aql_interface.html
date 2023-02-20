@@ -6,6 +6,32 @@
 	<link rel="stylesheet" href="CssFw.css" />
 	<link rel="stylesheet" href="https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/css/1.3.13/ecwid-app-ui.css" />
 	<script src="https://d35z3p2poghz10.cloudfront.net/ecwid-sdk/js/1.2.9/ecwid-app.js"></script>
+	<script>
+		// Initialize the application
+		EcwidApp.init({
+			app_id: "custom-app-84561757-1", // use your application client_id
+			autoloadedflag: true,
+			autoheight: true
+		});
+
+		var storeData = EcwidApp.getPayload();
+		var storeId = storeData.store_id;
+		var accessToken = storeData.access_token;
+		var language = storeData.lang;
+		var viewMode = storeData.view_mode;
+
+		if (storeData.public_token !== undefined) {
+			var publicToken = storeData.public_token;
+		}
+
+		if (storeData.app_state !== undefined) {
+			var appState = storeData.app_state;
+		}
+
+    // now you know the user you interact with and can access Ecwid API on their behalf
+
+
+	</script>
 
 </head>
 
